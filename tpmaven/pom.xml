@@ -23,38 +23,61 @@
 		</dependency>
 	</dependencies>
 
+	<!-- <build> -->
+	<!-- <pluginManagement> -->
+	<!-- <plugins> -->
+	<!-- <plugin> -->
+	<!-- <groupId>org.codehaus.mojo</groupId> -->
+	<!-- <artifactId>sonar-maven-plugin</artifactId> -->
+	<!-- <version>2.1</version> -->
+	<!-- </plugin> -->
+	<!-- </plugins> -->
+	<!-- </pluginManagement> -->
+	<!-- </build> -->
 
 	<reporting>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.9.1</version>
+
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
+				<version>2.6</version>
+
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>2.11</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
+				<version>2.3</version>
+
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
-				<version>2.5</version>
+				<version>3.0.1</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-changelog-plugin</artifactId>
+				<version>2.2</version>
 			</plugin>
 		</plugins>
 	</reporting>
 	<scm>
-		<connection>scm:svn:svn://IPSERVEUR/repository1/monappli-web</connection>
-		<url>http://IPSERVEUR/svn/monappli-web</url>
+		<connection>scm:git:https://github.com/rudametw/TPsMiageM1.git</connection>
+		<url>https://github.com/rudametw/TPsMiageM1/blob/master/</url>
+
+		<!-- https://github.com/rudametw/TPsMiageM1/blob/master/tpmaven/src/main/java/fr/triskell/tpm1miage/tpmaven/App.java -->
+		<!-- https://github.com/rudametw/TPsMiageM1/blob/master/tpmaven/src/main/java/fr/triskell/tpm1miage/tpmaven/App.java -->
+
 	</scm>
 </project>
